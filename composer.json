@@ -1,0 +1,6 @@
+{
+    "name": "cu-boulder/ucb_directory_search",
+    "description": "Provides a block to enable directory searches on the main University of Colorado Boulder website.",
+    "license": "GPL-2.0-or-later",
+    "type": "drupal-custom-module"
+}

@@ -1,0 +1,8 @@
+name: CU Boulder Directory Search
+description: ''
+core_version_requirement: ^10 || ^11
+type: module
+version: '0.1'
+package: CU Boulder
+dependencies:
+  - block

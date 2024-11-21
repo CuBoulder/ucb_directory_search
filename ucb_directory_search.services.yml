@@ -1,0 +1,8 @@
+services:
+  logger.channel.ucb_directory_search:
+    parent: logger.channel_base
+    arguments: ['ucb_directory_search']
+  ucb_directory_search.directory_search:
+    class: 'Drupal\ucb_directory_search\DirectorySearch'
+    arguments:
+      - '@logger.channel.ucb_directory_search'
